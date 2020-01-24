@@ -2,6 +2,7 @@ import { Injectable } from "@nestjs/common";
 import { InjectModel } from "@nestjs/mongoose";
 import { Model } from "mongoose";
 import { CreateStudentDto } from "../dto/create-student.dto";
+import { UpdateRecordBook } from "../dto/update-record-book.dto";
 import { IStudent } from "../interfaces/student.interface";
 
 @Injectable()
@@ -26,8 +27,15 @@ export class StudentsService {
     return this.studentModel.deleteOne({_id: id});
   }
 
+  async deleteAll(): Promise<void> {
+    return this.studentModel.remove({});
+  }
+
   async updateById(id: string, updateStudentDto: CreateStudentDto): Promise<void> {
     return this.studentModel.findByIdAndUpdate(id, updateStudentDto);
   }
 
+  async updateRecordBookById(id: string, updateRecordBookDto: UpdateRecordBook): Promise<void> {
+    return this.studentModel.findOneAndUpdate({"_id": id}, { $set: { "recordBook": updateRecordBookDto}});
+  }
 }

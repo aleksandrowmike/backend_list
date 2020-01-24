@@ -36,8 +36,14 @@ let StudentsService = class StudentsService {
     async deleteOne(id) {
         return this.studentModel.deleteOne({ _id: id });
     }
+    async deleteAll() {
+        return this.studentModel.remove({});
+    }
     async updateById(id, updateStudentDto) {
         return this.studentModel.findByIdAndUpdate(id, updateStudentDto);
+    }
+    async updateRecordBookById(id, updateRecordBookDto) {
+        return this.studentModel.findOneAndUpdate({ "_id": id }, { $set: { "recordBook": updateRecordBookDto } });
     }
 };
 StudentsService = __decorate([

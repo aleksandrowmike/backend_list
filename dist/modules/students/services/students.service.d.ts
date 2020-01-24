@@ -1,5 +1,6 @@
 import { Model } from "mongoose";
 import { CreateStudentDto } from "../dto/create-student.dto";
+import { UpdateRecordBook } from "../dto/update-record-book.dto";
 import { IStudent } from "../interfaces/student.interface";
 export declare class StudentsService {
     private readonly studentModel;
@@ -9,5 +10,7 @@ export declare class StudentsService {
     findById(id: string): Promise<IStudent>;
     count(): Promise<IStudent>;
     deleteOne(id: string): Promise<string>;
+    deleteAll(): Promise<void>;
     updateById(id: string, updateStudentDto: CreateStudentDto): Promise<void>;
+    updateRecordBookById(id: string, updateRecordBookDto: UpdateRecordBook): Promise<void>;
 }

@@ -14,6 +14,7 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const create_student_dto_1 = require("../dto/create-student.dto");
+const update_record_book_dto_1 = require("../dto/update-record-book.dto");
 const students_service_1 = require("../services/students.service");
 let StudentsController = class StudentsController {
     constructor(studentsService) {
@@ -33,6 +34,9 @@ let StudentsController = class StudentsController {
     }
     async update(id, updateStudentDto) {
         await this.studentsService.updateById(id, updateStudentDto);
+    }
+    async updateRecordBook(id, updateRecordBookDto) {
+        await this.studentsService.updateRecordBookById(id, updateRecordBookDto);
     }
     async delete(id) {
         await this.studentsService.deleteOne(id);
@@ -71,6 +75,13 @@ __decorate([
     __metadata("design:paramtypes", [String, create_student_dto_1.CreateStudentDto]),
     __metadata("design:returntype", Promise)
 ], StudentsController.prototype, "update", null);
+__decorate([
+    common_1.Put(":id/record"),
+    __param(0, common_1.Param("id")), __param(1, common_1.Body()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String, update_record_book_dto_1.UpdateRecordBook]),
+    __metadata("design:returntype", Promise)
+], StudentsController.prototype, "updateRecordBook", null);
 __decorate([
     common_1.Delete(":id"),
     __param(0, common_1.Param("id")),

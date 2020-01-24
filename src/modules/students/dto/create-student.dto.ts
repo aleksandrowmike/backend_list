@@ -1,8 +1,15 @@
+import { IRecordBook } from "../interfaces/record-book.interfaces";
+
 export class CreateStudentDto {
-  id: number;
-  firstName: string;
-  lastName: string;
-  middleName: string;
+  name: string;
+  avatar: string;
+  email: string;
+  phone: string;
+  sex: string;
+  grade: number;
+  country: string;
+  city: string;
+  about: string;
   birth: Date;
-  score: number;
+  recordBook: [IRecordBook];
 }

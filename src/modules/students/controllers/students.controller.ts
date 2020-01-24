@@ -1,5 +1,6 @@
 import { Body, Controller, Delete, Get, Param, Post, Put } from "@nestjs/common";
 import { CreateStudentDto } from "../dto/create-student.dto";
+import { UpdateRecordBook } from "../dto/update-record-book.dto";
 import { IStudent } from "../interfaces/student.interface";
 import { StudentsService } from "../services/students.service";
 
@@ -29,10 +30,19 @@ export class StudentsController {
     await this.studentsService.updateById(id, updateStudentDto);
   }
 
+  @Put(":id/record")
+  async updateRecordBook(@Param("id") id: string, @Body() updateRecordBookDto: UpdateRecordBook): Promise<void> {
+    await this.studentsService.updateRecordBookById(id, updateRecordBookDto);
+  }
+
   @Delete(":id")
   async delete(@Param("id") id: string): Promise<void> {
     await this.studentsService.deleteOne(id);
   }
+  /*@Delete()
+  async deleteAll(): Promise<void> {
+    await this.studentsService.deleteAll();
+  }*/
 }
 // {
 //   "id": 1,
