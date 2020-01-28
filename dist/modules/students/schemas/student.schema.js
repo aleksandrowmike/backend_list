@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose = require("mongoose");
 exports.StudentSchema = new mongoose.Schema({
+    id: { type: Number, default: 0 },
     name: { type: String, required: true },
     avatar: { type: String },
     email: { type: String },

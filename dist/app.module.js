@@ -15,7 +15,10 @@ let AppModule = class AppModule {
 };
 AppModule = __decorate([
     common_1.Module({
-        imports: [mongoose_1.MongooseModule.forRoot(uri), students_module_1.StudentsModule],
+        imports: [
+            mongoose_1.MongooseModule.forRoot(uri),
+            students_module_1.StudentsModule
+        ],
         controllers: [app_controller_1.AppController],
         providers: [],
     })

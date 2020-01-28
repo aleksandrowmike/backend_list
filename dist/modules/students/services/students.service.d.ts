@@ -6,6 +6,7 @@ export declare class StudentsService {
     private readonly studentModel;
     constructor(studentModel: Model<IStudent>);
     create(createStudentDto: CreateStudentDto): Promise<IStudent>;
+    many(body: any): Promise<void>;
     findAll(): Promise<IStudent[]>;
     findById(id: string): Promise<IStudent>;
     count(): Promise<IStudent>;

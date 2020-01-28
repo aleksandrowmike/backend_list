@@ -1141,41 +1141,9 @@
         "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
-      "../src/modules/students/interfaces/record-book.interfaces.ts": {
-        "version": "baf8cea0562e1bcfbba1ea389e448443610673aaa18f3f509ff74bebc7ce4d2b",
-        "signature": "36e4d35c16b8c946e8d6a4d48cd0b9c3966a90f152e075ec4d140f5e322b111f"
-      },
-      "../src/modules/students/dto/create-student.dto.ts": {
-        "version": "dfd60c624af08f0b4c08a15209e77e40840af5ebe9b539b05952e142ff131b28",
-        "signature": "f1bf93d57b88e21b9b3565a62cae05e71281722fdb2a518c779a94e1426df215"
-      },
-      "../src/modules/students/dto/update-record-book.dto.ts": {
-        "version": "070a442c9ff570bd04281eb3032f6d2230169ac9f38b85422bfce202521aadb6",
-        "signature": "cc434036f38613c3485542b0ea9ab4f676caf9c63fa0d2c22c6bf86628e4c94a"
-      },
-      "../src/modules/students/interfaces/student.interface.ts": {
-        "version": "0b129e8c3ebf7f20878c69c438b401ba6a0bf7ff732f78c5856d085b42fbf74a",
-        "signature": "da2bccb46ec4daf42d6e6a8b8046eb9148e18de894775e74dc88bd602a731f5e"
-      },
-      "../src/modules/students/services/students.service.ts": {
-        "version": "99c66878c8f745ddc8900b09cad39f8f10525c8a8944461d9eb92fe7a5911713",
-        "signature": "1ba3bd8be9d7b4630cfcf56a7da604cf0e5eb79cb785c0aec46b841f0a3f038f"
-      },
-      "../src/modules/students/controllers/students.controller.ts": {
-        "version": "9ec73221141c6a7a85c648643b81daeb4c68cd8941c7d13af79b137679dc2e06",
-        "signature": "287632c54ae14588990b55a1de2e522d529e64c5e974a02d3a2898d5fbe9abd7"
-      },
-      "../src/modules/students/schemas/student.schema.ts": {
-        "version": "2ebbf95252e652c3367b024db5b5136bd00c5ff0adc0650d19f187361d38c9da",
-        "signature": "ab4798996bb518ce6a916fa02773be29e0c1a0df9c1047b7aa0ec888104c178a"
-      },
-      "../src/modules/students/students.module.ts": {
-        "version": "9b24d6fa7432d0b707eeff53c414898f12e101fdca7e6db6ca9082eb1ae0d4e4",
-        "signature": "5ef1ee22170fd0a3c92b80f434b2df152b2b95b4c91dac0d86aa5848261ba44f"
-      },
-      "../src/app.module.ts": {
-        "version": "43db2a1ab7515109158e783becd3da40b87361f90c669f1d74bba2d09600d36d",
-        "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88"
+      "../node_modules/@nestjs/serve-static/dist/interfaces/serve-static-options.interface.d.ts": {
+        "version": "86b9f7acaba268dfb257d127462361ebe8279e8f97459e6bc473abc04067b2cf",
+        "signature": "86b9f7acaba268dfb257d127462361ebe8279e8f97459e6bc473abc04067b2cf"
       },
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": {
         "version": "db3b4b2c9508013aecea8aafa90e968d3a389744d3b3c637921ff8f06c1a5c89",
@@ -1317,6 +1285,142 @@
         "version": "6400917b161d3331bc82638ccc4aa149d755f501cfaba3d716fca1228c956171",
         "signature": "6400917b161d3331bc82638ccc4aa149d755f501cfaba3d716fca1228c956171"
       },
+      "../node_modules/@nestjs/serve-static/dist/loaders/abstract.loader.d.ts": {
+        "version": "7af6e3f6cfa54c0cafdb8b295a8a8ecea08875b5e89ee672f37810bb0369b9a3",
+        "signature": "7af6e3f6cfa54c0cafdb8b295a8a8ecea08875b5e89ee672f37810bb0369b9a3"
+      },
+      "../node_modules/@nestjs/serve-static/dist/loaders/express.loader.d.ts": {
+        "version": "eabc62b6d7e0b43b7bfd8f8914c40d980a20cc52e3d66d0c40edffc3a43f21e7",
+        "signature": "eabc62b6d7e0b43b7bfd8f8914c40d980a20cc52e3d66d0c40edffc3a43f21e7"
+      },
+      "../node_modules/@nestjs/serve-static/dist/loaders/fastify.loader.d.ts": {
+        "version": "3e98c6c6886df305dc389ff4d8a53515bb2306c2004469947864b1d8efb9f43e",
+        "signature": "3e98c6c6886df305dc389ff4d8a53515bb2306c2004469947864b1d8efb9f43e"
+      },
+      "../node_modules/@nestjs/serve-static/dist/loaders/noop.loader.d.ts": {
+        "version": "8e08a9cab9e3d32aecdbde4a7cb8da977f027fd03d6cf774be15ed274acd543c",
+        "signature": "8e08a9cab9e3d32aecdbde4a7cb8da977f027fd03d6cf774be15ed274acd543c"
+      },
+      "../node_modules/@nestjs/serve-static/dist/serve-static.constants.d.ts": {
+        "version": "cb2be8b992dfcf087656b9ba8f887e7943cd3a7f9880d0292064d32702a9146d",
+        "signature": "cb2be8b992dfcf087656b9ba8f887e7943cd3a7f9880d0292064d32702a9146d"
+      },
+      "../node_modules/@nestjs/serve-static/dist/serve-static.module.d.ts": {
+        "version": "d3d63560d211f5cde23ddacd7b628963d1a4701d195c53705a53821dd0fbe1b1",
+        "signature": "d3d63560d211f5cde23ddacd7b628963d1a4701d195c53705a53821dd0fbe1b1"
+      },
+      "../node_modules/@nestjs/serve-static/dist/serve-static.providers.d.ts": {
+        "version": "e5d2f32f61581a9e54404f1918c9a9f6911f89a6efd535bf3c4d41f3f84d8802",
+        "signature": "e5d2f32f61581a9e54404f1918c9a9f6911f89a6efd535bf3c4d41f3f84d8802"
+      },
+      "../node_modules/@nestjs/serve-static/dist/index.d.ts": {
+        "version": "fea13cbc4da2a22aad4d71b15c73854a6a801fa8038293eb7f4783884ff5af70",
+        "signature": "fea13cbc4da2a22aad4d71b15c73854a6a801fa8038293eb7f4783884ff5af70"
+      },
+      "../node_modules/@nestjs/serve-static/index.d.ts": {
+        "version": "a2b176f66f0b708241265fb3b417597c9c9d21912bbb7f5cc00d99af551c2078",
+        "signature": "a2b176f66f0b708241265fb3b417597c9c9d21912bbb7f5cc00d99af551c2078"
+      },
+      "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts": {
+        "version": "b87682ddc9e2c3714ca66991cdd86ff7e18cae6fd010742a93bd612a07d19697",
+        "signature": "b87682ddc9e2c3714ca66991cdd86ff7e18cae6fd010742a93bd612a07d19697"
+      },
+      "../node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts": {
+        "version": "1b1b3f4b06319e70e84e024779ab5a353dcfd496c96c5a446c86deb8e843d302",
+        "signature": "1b1b3f4b06319e70e84e024779ab5a353dcfd496c96c5a446c86deb8e843d302"
+      },
+      "../node_modules/@nestjs/platform-express/adapters/index.d.ts": {
+        "version": "86bf2bfe29d0bc3fbc68e64c25ea6eab9bcb3c518ae941012ed75b1e87d391ae",
+        "signature": "86bf2bfe29d0bc3fbc68e64c25ea6eab9bcb3c518ae941012ed75b1e87d391ae"
+      },
+      "../node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts": {
+        "version": "8b584341b20cfcdaf8e47f5b91b1d5bfae1cc1be94941b4ccec6cf07f1017950",
+        "signature": "8b584341b20cfcdaf8e47f5b91b1d5bfae1cc1be94941b4ccec6cf07f1017950"
+      },
+      "../node_modules/@nestjs/platform-express/interfaces/index.d.ts": {
+        "version": "68a330d1246e3f0ed055b931ab6f4f9505d7c2db0560515f68c722c06541dc0d",
+        "signature": "68a330d1246e3f0ed055b931ab6f4f9505d7c2db0560515f68c722c06541dc0d"
+      },
+      "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts": {
+        "version": "8ae337fcd337d5ca179611dae780e7dbb45b3c0cbc6debc5067a4215e95cd873",
+        "signature": "8ae337fcd337d5ca179611dae780e7dbb45b3c0cbc6debc5067a4215e95cd873"
+      },
+      "../node_modules/@nestjs/platform-express/multer/interceptors/any-files.interceptor.d.ts": {
+        "version": "00427e68be5cbfd0694c650ebf27dc9d5cb8ec62254ca5af0cd3e412595f8d09",
+        "signature": "00427e68be5cbfd0694c650ebf27dc9d5cb8ec62254ca5af0cd3e412595f8d09"
+      },
+      "../node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts": {
+        "version": "6a013828e3333e21fde3a4d1c7da0c41e8ce0218a98ad8e71025c2d437a2458b",
+        "signature": "6a013828e3333e21fde3a4d1c7da0c41e8ce0218a98ad8e71025c2d437a2458b"
+      },
+      "../node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts": {
+        "version": "fc1a967ceb559957a8fd153d364596d7c906440c401e9a1f0ef9cda62a92a937",
+        "signature": "fc1a967ceb559957a8fd153d364596d7c906440c401e9a1f0ef9cda62a92a937"
+      },
+      "../node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts": {
+        "version": "fd09f594933708040bbab2ad98fdfd1f076209ff0d514cbc8ab50bc39f462619",
+        "signature": "fd09f594933708040bbab2ad98fdfd1f076209ff0d514cbc8ab50bc39f462619"
+      },
+      "../node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts": {
+        "version": "6db46ed9adeb732a2c46b05dd64a3fe85b2789065f1ef7668f583c61f1046a14",
+        "signature": "6db46ed9adeb732a2c46b05dd64a3fe85b2789065f1ef7668f583c61f1046a14"
+      },
+      "../node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts": {
+        "version": "4741b150be6852903a560f28e27c51c8b17e081c2b172117f1e2c2331520eb4a",
+        "signature": "4741b150be6852903a560f28e27c51c8b17e081c2b172117f1e2c2331520eb4a"
+      },
+      "../node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts": {
+        "version": "d8c1697db4bb3234ff3f8481545284992f1516bc712421b81ee3ef3f226ae112",
+        "signature": "d8c1697db4bb3234ff3f8481545284992f1516bc712421b81ee3ef3f226ae112"
+      },
+      "../node_modules/@nestjs/platform-express/multer/multer.module.d.ts": {
+        "version": "549adfb8fb51148eeb2c0659941b3a508988ee0b00f325fbaae7e96bc4b3e4c9",
+        "signature": "549adfb8fb51148eeb2c0659941b3a508988ee0b00f325fbaae7e96bc4b3e4c9"
+      },
+      "../node_modules/@nestjs/platform-express/multer/index.d.ts": {
+        "version": "e2c3c3ca3818d610599392a9431e60ec021c5d59262ecd616538484990f6e331",
+        "signature": "e2c3c3ca3818d610599392a9431e60ec021c5d59262ecd616538484990f6e331"
+      },
+      "../node_modules/@nestjs/platform-express/index.d.ts": {
+        "version": "e3cd60be3c4f95c43420be67eaa21637585b7c1a8129f9b39983bbd294f9513c",
+        "signature": "e3cd60be3c4f95c43420be67eaa21637585b7c1a8129f9b39983bbd294f9513c"
+      },
+      "../src/modules/students/interfaces/record-book.interfaces.ts": {
+        "version": "baf8cea0562e1bcfbba1ea389e448443610673aaa18f3f509ff74bebc7ce4d2b",
+        "signature": "36e4d35c16b8c946e8d6a4d48cd0b9c3966a90f152e075ec4d140f5e322b111f"
+      },
+      "../src/modules/students/dto/create-student.dto.ts": {
+        "version": "279c16b21b4b351886034319aece5f0a4fae358ce82e9d374d515c12bc03329a",
+        "signature": "c524eb42e459eff21d00174036d7b5eefbb9993b0ba7229e5311723dd9985ee3"
+      },
+      "../src/modules/students/dto/update-record-book.dto.ts": {
+        "version": "070a442c9ff570bd04281eb3032f6d2230169ac9f38b85422bfce202521aadb6",
+        "signature": "cc434036f38613c3485542b0ea9ab4f676caf9c63fa0d2c22c6bf86628e4c94a"
+      },
+      "../src/modules/students/interfaces/student.interface.ts": {
+        "version": "e346fb41fbefed6474b67b9ab6b5da6937c9e9f6b460e92c3b2b3684e9bc0f4d",
+        "signature": "6f0b19b27cfec53f6fdf8c4b6f3827f65c55dfc10a533e51f3f7ab95745bf4b4"
+      },
+      "../src/modules/students/services/students.service.ts": {
+        "version": "65c62bc5123403848bb537f69b8288882fad0359c957754885f6220cfe015ef4",
+        "signature": "fd7ec08c1570bf6138d311de8878042230232c594dd3f8d2fd88c36fbaa7d511"
+      },
+      "../src/modules/students/controllers/students.controller.ts": {
+        "version": "00f43d61e8999dee14ff3703518be8690b003665358eb589d763590d68edba40",
+        "signature": "d04897be209b28ab2f1c8a2c52223c09cb7a5d87bf7caa2f4cc164af74d981e2"
+      },
+      "../src/modules/students/schemas/student.schema.ts": {
+        "version": "a45e755fc8d4652dcdaf70c78d18f21c0647191ba5c08d0670d7741c72f43aab",
+        "signature": "ab4798996bb518ce6a916fa02773be29e0c1a0df9c1047b7aa0ec888104c178a"
+      },
+      "../src/modules/students/students.module.ts": {
+        "version": "9b24d6fa7432d0b707eeff53c414898f12e101fdca7e6db6ca9082eb1ae0d4e4",
+        "signature": "5ef1ee22170fd0a3c92b80f434b2df152b2b95b4c91dac0d86aa5848261ba44f"
+      },
+      "../src/app.module.ts": {
+        "version": "ded9de0fdad11c493a946a3d68856d399e524e5fd433334661d9ea790e7dc526",
+        "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88"
+      },
       "../src/main.ts": {
         "version": "c8c21c01fd14f8fa0dfa1cf9175124053e922ddeec6b2fd060161f155d069cf9",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
@@ -1438,8 +1542,8 @@
         "signature": "02a185b5e8d74b38264ffb77baa99e83969ba558958df28f971528dcbdd94876"
       },
       "../node_modules/@types/tapable/index.d.ts": {
-        "version": "c3175d4a7894de56cdc5e62f4269f1f57c2f08da88d3a91ad47bc0652ac8cb46",
-        "signature": "c3175d4a7894de56cdc5e62f4269f1f57c2f08da88d3a91ad47bc0652ac8cb46"
+        "version": "963e0182287755a18c98493cd70f6747b776f1a54c8620353e1f8e2e17b6cd3a",
+        "signature": "963e0182287755a18c98493cd70f6747b776f1a54c8620353e1f8e2e17b6cd3a"
       },
       "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts": {
         "version": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
@@ -1448,10 +1552,6 @@
       "../node_modules/@types/uglify-js/index.d.ts": {
         "version": "bdc18dd47aea9977e419a8e03e7e5d04ed8cf8265e014d8788848b76b969cbba",
         "signature": "bdc18dd47aea9977e419a8e03e7e5d04ed8cf8265e014d8788848b76b969cbba"
-      },
-      "../node_modules/anymatch/index.d.ts": {
-        "version": "4fb0b7d532aa6fb850b6cd2f1ee4f00802d877b5c66a51903bc1fb0624126349",
-        "signature": "4fb0b7d532aa6fb850b6cd2f1ee4f00802d877b5c66a51903bc1fb0624126349"
       },
       "../node_modules/@types/webpack/node_modules/source-map/source-map.d.ts": {
         "version": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
@@ -1462,12 +1562,12 @@
         "signature": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579"
       },
       "../node_modules/@types/webpack-sources/index.d.ts": {
-        "version": "7429e36c7e860a83e1166d6f0977fa4938b7a7a346255169a678939594394375",
-        "signature": "7429e36c7e860a83e1166d6f0977fa4938b7a7a346255169a678939594394375"
+        "version": "ab95c4625e16499b8181731576984bcdfd0438a9a87b5f7de8299de5c912a241",
+        "signature": "ab95c4625e16499b8181731576984bcdfd0438a9a87b5f7de8299de5c912a241"
       },
       "../node_modules/@types/webpack/index.d.ts": {
-        "version": "1ae1128d020d4b991e8916bb29bba37f47c379f8bb4a678b8a3c019f68d08e29",
-        "signature": "1ae1128d020d4b991e8916bb29bba37f47c379f8bb4a678b8a3c019f68d08e29"
+        "version": "ac5c629fbc699258ee8d5218d0daaaa2cdf8544ce6d826313ed74db23184e1e4",
+        "signature": "ac5c629fbc699258ee8d5218d0daaaa2cdf8544ce6d826313ed74db23184e1e4"
       },
       "../node_modules/@types/yargs-parser/index.d.ts": {
         "version": "e65fca93c26b09681d33dad7b3af32ae42bf0d114d859671ffed30a92691439c",
@@ -3739,76 +3839,7 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/modules/students/interfaces/record-book.interfaces.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/modules/students/dto/create-student.dto.ts": [
-        "../src/modules/students/interfaces/record-book.interfaces.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/modules/students/dto/update-record-book.dto.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/modules/students/interfaces/student.interface.ts": [
-        "../src/modules/students/interfaces/record-book.interfaces.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/modules/students/services/students.service.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../src/modules/students/dto/create-student.dto.ts",
-        "../src/modules/students/dto/update-record-book.dto.ts",
-        "../src/modules/students/interfaces/student.interface.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/modules/students/controllers/students.controller.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../src/modules/students/dto/create-student.dto.ts",
-        "../src/modules/students/dto/update-record-book.dto.ts",
-        "../src/modules/students/interfaces/student.interface.ts",
-        "../src/modules/students/services/students.service.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/modules/students/schemas/student.schema.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/modules/students/students.module.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../src/modules/students/controllers/students.controller.ts",
-        "../src/modules/students/schemas/student.schema.ts",
-        "../src/modules/students/services/students.service.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/app.module.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/index.d.ts",
-        "../src/app.controller.ts",
-        "../src/modules/students/students.module.ts",
+      "../node_modules/@nestjs/serve-static/dist/interfaces/serve-static-options.interface.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -4124,6 +4155,294 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../node_modules/@nestjs/serve-static/dist/loaders/abstract.loader.d.ts": [
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/serve-static/dist/loaders/express.loader.d.ts": [
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/loaders/abstract.loader.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/serve-static/dist/loaders/fastify.loader.d.ts": [
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/loaders/abstract.loader.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/serve-static/dist/loaders/noop.loader.d.ts": [
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/loaders/abstract.loader.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/serve-static/dist/serve-static.constants.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/serve-static/dist/serve-static.module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/loaders/abstract.loader.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/serve-static/dist/serve-static.providers.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/serve-static/dist/index.d.ts": [
+        "../node_modules/@nestjs/serve-static/dist/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/loaders/abstract.loader.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/loaders/express.loader.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/loaders/fastify.loader.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/loaders/noop.loader.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/serve-static.constants.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/serve-static.module.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/serve-static.providers.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/serve-static/index.d.ts": [
+        "../node_modules/@nestjs/serve-static/dist/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
+        "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
+        "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/adapters/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts": [
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/any-files.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/multer/interceptors/any-files.interceptor.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/multer.module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/multer.module.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/adapters/index.d.ts",
+        "../node_modules/@nestjs/platform-express/interfaces/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/modules/students/interfaces/record-book.interfaces.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/modules/students/dto/create-student.dto.ts": [
+        "../src/modules/students/interfaces/record-book.interfaces.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/modules/students/dto/update-record-book.dto.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/modules/students/interfaces/student.interface.ts": [
+        "../src/modules/students/interfaces/record-book.interfaces.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/modules/students/services/students.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../src/modules/students/dto/create-student.dto.ts",
+        "../src/modules/students/dto/update-record-book.dto.ts",
+        "../src/modules/students/interfaces/student.interface.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/modules/students/controllers/students.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/index.d.ts",
+        "../node_modules/@types/node/path.d.ts",
+        "../src/modules/students/dto/create-student.dto.ts",
+        "../src/modules/students/dto/update-record-book.dto.ts",
+        "../src/modules/students/interfaces/student.interface.ts",
+        "../src/modules/students/services/students.service.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/modules/students/schemas/student.schema.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/modules/students/students.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../src/modules/students/controllers/students.controller.ts",
+        "../src/modules/students/schemas/student.schema.ts",
+        "../src/modules/students/services/students.service.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/app.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@nestjs/serve-static/index.d.ts",
+        "../node_modules/@types/node/path.d.ts",
+        "../src/app.controller.ts",
+        "../src/modules/students/students.module.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
         "../src/app.module.ts",
@@ -4362,12 +4681,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/anymatch/index.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../node_modules/@types/webpack/node_modules/source-map/source-map.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -4393,7 +4706,7 @@
       "../node_modules/@types/webpack/index.d.ts": [
         "../node_modules/@types/tapable/index.d.ts",
         "../node_modules/@types/uglify-js/index.d.ts",
-        "../node_modules/anymatch/index.d.ts",
+        "../node_modules/@types/anymatch/index.d.ts",
         "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
         "../node_modules/@types/webpack-sources/index.d.ts",
         "../node_modules/@types/node/ts3.2/index.d.ts",
@@ -6654,22 +6967,11 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/modules/students/dto/create-student.dto.ts": [
-        "../src/modules/students/interfaces/record-book.interfaces.ts"
-      ],
-      "../src/modules/students/interfaces/student.interface.ts": [
-        "../src/modules/students/interfaces/record-book.interfaces.ts"
-      ],
-      "../src/modules/students/services/students.service.ts": [
-        "../src/modules/students/interfaces/student.interface.ts",
-        "../src/modules/students/dto/create-student.dto.ts",
-        "../src/modules/students/dto/update-record-book.dto.ts"
-      ],
-      "../src/modules/students/controllers/students.controller.ts": [
-        "../src/modules/students/services/students.service.ts",
-        "../src/modules/students/interfaces/student.interface.ts",
-        "../src/modules/students/dto/create-student.dto.ts",
-        "../src/modules/students/dto/update-record-book.dto.ts"
+      "../node_modules/@nestjs/serve-static/dist/interfaces/serve-static-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -6981,6 +7283,232 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../node_modules/@nestjs/serve-static/dist/loaders/abstract.loader.d.ts": [
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/serve-static/dist/loaders/express.loader.d.ts": [
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/loaders/abstract.loader.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/serve-static/dist/loaders/fastify.loader.d.ts": [
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/loaders/abstract.loader.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/serve-static/dist/loaders/noop.loader.d.ts": [
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/loaders/abstract.loader.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/serve-static/dist/serve-static.constants.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/serve-static/dist/serve-static.module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/loaders/abstract.loader.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/serve-static/dist/serve-static.providers.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/serve-static/dist/index.d.ts": [
+        "../node_modules/@nestjs/serve-static/dist/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/loaders/abstract.loader.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/loaders/express.loader.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/loaders/fastify.loader.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/loaders/noop.loader.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/serve-static.constants.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/serve-static.module.d.ts",
+        "../node_modules/@nestjs/serve-static/dist/serve-static.providers.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/serve-static/index.d.ts": [
+        "../node_modules/@nestjs/serve-static/dist/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
+        "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
+        "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/adapters/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts": [
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/any-files.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/multer/interceptors/any-files.interceptor.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/multer.module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/multer.module.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/adapters/index.d.ts",
+        "../node_modules/@nestjs/platform-express/interfaces/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/modules/students/dto/create-student.dto.ts": [
+        "../src/modules/students/interfaces/record-book.interfaces.ts"
+      ],
+      "../src/modules/students/interfaces/student.interface.ts": [
+        "../src/modules/students/interfaces/record-book.interfaces.ts"
+      ],
+      "../src/modules/students/services/students.service.ts": [
+        "../src/modules/students/interfaces/student.interface.ts",
+        "../src/modules/students/dto/create-student.dto.ts",
+        "../src/modules/students/dto/update-record-book.dto.ts"
+      ],
+      "../src/modules/students/controllers/students.controller.ts": [
+        "../src/modules/students/services/students.service.ts",
+        "../src/modules/students/interfaces/student.interface.ts",
+        "../src/modules/students/dto/create-student.dto.ts",
+        "../src/modules/students/dto/update-record-book.dto.ts"
+      ],
       "../node_modules/@types/anymatch/index.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -7211,12 +7739,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/anymatch/index.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../node_modules/@types/webpack/node_modules/source-map/source-map.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -7242,7 +7764,7 @@
       "../node_modules/@types/webpack/index.d.ts": [
         "../node_modules/@types/tapable/index.d.ts",
         "../node_modules/@types/uglify-js/index.d.ts",
-        "../node_modules/anymatch/index.d.ts",
+        "../node_modules/@types/anymatch/index.d.ts",
         "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
         "../node_modules/@types/webpack-sources/index.d.ts",
         "../node_modules/@types/node/ts3.2/index.d.ts",
@@ -7551,14 +8073,7 @@
       "../node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
       "../node_modules/@nestjs/mongoose/dist/index.d.ts",
       "../node_modules/@nestjs/mongoose/index.d.ts",
-      "../src/modules/students/interfaces/record-book.interfaces.ts",
-      "../src/modules/students/dto/create-student.dto.ts",
-      "../src/modules/students/dto/update-record-book.dto.ts",
-      "../src/modules/students/interfaces/student.interface.ts",
-      "../src/modules/students/services/students.service.ts",
-      "../src/modules/students/controllers/students.controller.ts",
-      "../src/modules/students/students.module.ts",
-      "../src/app.module.ts",
+      "../node_modules/@nestjs/serve-static/dist/interfaces/serve-static-options.interface.d.ts",
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "../node_modules/@nestjs/core/adapters/index.d.ts",
       "../node_modules/@nestjs/core/injector/module-token-factory.d.ts",
@@ -7594,6 +8109,38 @@
       "../node_modules/@nestjs/core/services/reflector.service.d.ts",
       "../node_modules/@nestjs/core/services/index.d.ts",
       "../node_modules/@nestjs/core/index.d.ts",
+      "../node_modules/@nestjs/serve-static/dist/loaders/abstract.loader.d.ts",
+      "../node_modules/@nestjs/serve-static/dist/loaders/express.loader.d.ts",
+      "../node_modules/@nestjs/serve-static/dist/loaders/fastify.loader.d.ts",
+      "../node_modules/@nestjs/serve-static/dist/loaders/noop.loader.d.ts",
+      "../node_modules/@nestjs/serve-static/dist/serve-static.constants.d.ts",
+      "../node_modules/@nestjs/serve-static/dist/serve-static.module.d.ts",
+      "../node_modules/@nestjs/serve-static/dist/serve-static.providers.d.ts",
+      "../node_modules/@nestjs/serve-static/dist/index.d.ts",
+      "../node_modules/@nestjs/serve-static/index.d.ts",
+      "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts",
+      "../node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts",
+      "../node_modules/@nestjs/platform-express/adapters/index.d.ts",
+      "../node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts",
+      "../node_modules/@nestjs/platform-express/interfaces/index.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/interceptors/any-files.interceptor.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/multer.module.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/index.d.ts",
+      "../node_modules/@nestjs/platform-express/index.d.ts",
+      "../src/modules/students/interfaces/record-book.interfaces.ts",
+      "../src/modules/students/dto/create-student.dto.ts",
+      "../src/modules/students/dto/update-record-book.dto.ts",
+      "../src/modules/students/interfaces/student.interface.ts",
+      "../src/modules/students/services/students.service.ts",
+      "../src/modules/students/schemas/student.schema.ts",
+      "../src/app.module.ts",
       "../src/main.ts",
       "../node_modules/@types/anymatch/index.d.ts",
       "../node_modules/@babel/types/lib/index.d.ts",
@@ -7627,14 +8174,14 @@
       "../node_modules/@types/tapable/index.d.ts",
       "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
       "../node_modules/@types/uglify-js/index.d.ts",
-      "../node_modules/anymatch/index.d.ts",
       "../node_modules/@types/webpack/node_modules/source-map/source-map.d.ts",
       "../node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts",
       "../node_modules/@types/webpack-sources/index.d.ts",
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/modules/students/schemas/student.schema.ts"
+      "../src/modules/students/controllers/students.controller.ts",
+      "../src/modules/students/students.module.ts"
     ]
   },
   "version": "3.7.4"

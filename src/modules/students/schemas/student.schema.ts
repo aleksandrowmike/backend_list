@@ -1,6 +1,7 @@
 import * as mongoose from "mongoose";
 
 export const StudentSchema = new mongoose.Schema({
+  id: {type: Number, default: 0},
   name: { type: String, required: true },
   avatar: {type: String},
   email: { type: String},

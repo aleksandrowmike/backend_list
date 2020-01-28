@@ -13,6 +13,9 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
+const platform_express_1 = require("@nestjs/platform-express");
+const multer_1 = require("multer");
+const path_1 = require("path");
 const create_student_dto_1 = require("../dto/create-student.dto");
 const update_record_book_dto_1 = require("../dto/update-record-book.dto");
 const students_service_1 = require("../services/students.service");
@@ -31,6 +34,13 @@ let StudentsController = class StudentsController {
     }
     async create(createStudentDto) {
         await this.studentsService.create(createStudentDto);
+    }
+    uploadFile(file, res) {
+        res.send({ filename: file.filename });
+        console.log(file.path);
+    }
+    async serveAvatar(fileId, res) {
+        res.sendFile(fileId, { root: "avatars" });
     }
     async update(id, updateStudentDto) {
         await this.studentsService.updateById(id, updateStudentDto);
@@ -62,12 +72,36 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], StudentsController.prototype, "findById", null);
 __decorate([
-    common_1.Post(),
+    common_1.Post(""),
     __param(0, common_1.Body()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [create_student_dto_1.CreateStudentDto]),
     __metadata("design:returntype", Promise)
 ], StudentsController.prototype, "create", null);
+__decorate([
+    common_1.Post("upload"),
+    common_1.UseInterceptors(platform_express_1.FileInterceptor("image", {
+        storage: multer_1.diskStorage({
+            destination: "./avatars",
+            filename: (req, file, cb) => {
+                const randomName = Array(32).fill(null).map(() => (Math.round(Math.random() * 16)).toString(16)).join("");
+                this.fieldId = randomName;
+                return cb(null, `${randomName}${path_1.extname(file.originalname)}`);
+            }
+        })
+    })),
+    __param(0, common_1.UploadedFile()), __param(1, common_1.Res()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Object]),
+    __metadata("design:returntype", void 0)
+], StudentsController.prototype, "uploadFile", null);
+__decorate([
+    common_1.Get("avatars/:fileId"),
+    __param(0, common_1.Param("fileId")), __param(1, common_1.Res()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Object]),
+    __metadata("design:returntype", Promise)
+], StudentsController.prototype, "serveAvatar", null);
 __decorate([
     common_1.Put(":id"),
     __param(0, common_1.Param("id")), __param(1, common_1.Body()),

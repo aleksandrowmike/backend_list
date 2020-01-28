@@ -2,6 +2,7 @@ import { Document } from "mongoose";
 import { IRecordBook } from "./record-book.interfaces";
 
 export interface IStudent extends Document {
+  id: number;
   name: string;
   avatar: string;
   email: string;
