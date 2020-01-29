@@ -13,5 +13,5 @@ export interface IStudent extends Document {
   city: string;
   about: string;
   birth: Date;
-  recordBook: [IRecordBook];
+  recordBook?: [IRecordBook];
 }

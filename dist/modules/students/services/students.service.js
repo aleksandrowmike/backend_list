@@ -21,7 +21,6 @@ let StudentsService = class StudentsService {
         this.studentModel = studentModel;
     }
     async create(createStudentDto) {
-        createStudentDto.id = this.studentModel.count() + 1;
         const createdStudent = new this.studentModel(createStudentDto);
         return createdStudent.save();
     }

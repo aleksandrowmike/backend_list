@@ -12,6 +12,7 @@ export declare class StudentsController {
     create(createStudentDto: CreateStudentDto): Promise<void>;
     uploadFile(file: any, res: any): void;
     serveAvatar(fileId: any, res: any): Promise<any>;
+    many(): Promise<void>;
     update(id: string, updateStudentDto: CreateStudentDto): Promise<void>;
     updateRecordBook(id: string, updateRecordBookDto: UpdateRecordBook): Promise<void>;
     delete(id: string): Promise<void>;

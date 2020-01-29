@@ -10,7 +10,6 @@ export class StudentsService {
   constructor(@InjectModel("Student") private readonly studentModel: Model<IStudent>) {}
 
   async create (createStudentDto: CreateStudentDto): Promise<IStudent> {
-    createStudentDto.id = this.studentModel.count() + 1;
     const createdStudent = new this.studentModel(createStudentDto);
     return createdStudent.save();
   }

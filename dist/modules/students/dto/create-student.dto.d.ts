@@ -11,5 +11,5 @@ export declare class CreateStudentDto {
     city: string;
     about: string;
     birth: Date;
-    recordBook: [IRecordBook];
+    recordBook?: [IRecordBook];
 }
