@@ -1,5 +1,5 @@
 export declare class UpdateRecordBook {
     period: string;
-    semester: number;
+    semester?: number;
     discipline: object;
 }

@@ -9,7 +9,7 @@ const uri: string = "mongodb+srv://new-mikhail_31:LJL9KSbUnIG6QHzd@cluster0-ziqn
 
 @Module({
   imports: [
-    MongooseModule.forRoot(uri),
+    MongooseModule.forRoot(uri, { useFindAndModify: false, useNewUrlParser: true, useUnifiedTopology: true}),
     StudentsModule],
   controllers: [AppController],
   providers: [],

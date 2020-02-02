@@ -1386,16 +1386,16 @@
         "signature": "e3cd60be3c4f95c43420be67eaa21637585b7c1a8129f9b39983bbd294f9513c"
       },
       "../src/modules/students/interfaces/record-book.interfaces.ts": {
-        "version": "baf8cea0562e1bcfbba1ea389e448443610673aaa18f3f509ff74bebc7ce4d2b",
-        "signature": "36e4d35c16b8c946e8d6a4d48cd0b9c3966a90f152e075ec4d140f5e322b111f"
+        "version": "4898ef50201c7f932860779e66ff934f4bbc80dabd7fb5fe94906e59087b3ea3",
+        "signature": "c411e65f98633a912183dcb7facbb36b46438d5ec3f7e10e65759d850accc98f"
       },
       "../src/modules/students/dto/create-student.dto.ts": {
         "version": "7fee641d32e1fbc02136c398bcdd6e98f8b9386e1f93017f60f58c376c54d848",
         "signature": "81c6f2eb411d13227d1425cd607dacf93b2de43a1ab2c6c62f24a14b7eac4533"
       },
       "../src/modules/students/dto/update-record-book.dto.ts": {
-        "version": "070a442c9ff570bd04281eb3032f6d2230169ac9f38b85422bfce202521aadb6",
-        "signature": "cc434036f38613c3485542b0ea9ab4f676caf9c63fa0d2c22c6bf86628e4c94a"
+        "version": "0a337658d1b8cea9b01b5f928d2765631b32df852c6639abcfa100f0841aeede",
+        "signature": "ee63e33c3ae7b1604abb5d029d9ba308f51d09c11bcb1a8dec64f10d8d3b457a"
       },
       "../src/modules/students/interfaces/student.interface.ts": {
         "version": "b1a8386c2f0738514a46846d2fae8582b2ed2a2744b4cf063b896bacd8373bd6",
@@ -1406,8 +1406,8 @@
         "signature": "fd7ec08c1570bf6138d311de8878042230232c594dd3f8d2fd88c36fbaa7d511"
       },
       "../src/modules/students/controllers/students.controller.ts": {
-        "version": "041c9fc5a30428ef23a1bcccbef4e14855ef570cf593ad8e1e7697623bab0525",
-        "signature": "9416b6dcb76cf4e759134843faa0aa506710ec1695094432cfb8d8961697d274"
+        "version": "688eefb9020a0f093afb91f4570b9ea27c59b52fd4bcb315ae94ec47e9442174",
+        "signature": "d04897be209b28ab2f1c8a2c52223c09cb7a5d87bf7caa2f4cc164af74d981e2"
       },
       "../src/modules/students/schemas/student.schema.ts": {
         "version": "a45e755fc8d4652dcdaf70c78d18f21c0647191ba5c08d0670d7741c72f43aab",
@@ -1418,7 +1418,7 @@
         "signature": "5ef1ee22170fd0a3c92b80f434b2df152b2b95b4c91dac0d86aa5848261ba44f"
       },
       "../src/app.module.ts": {
-        "version": "ded9de0fdad11c493a946a3d68856d399e524e5fd433334661d9ea790e7dc526",
+        "version": "966a045a06877e06492bbb7d389f746305c57c4c5f74f8cdb1dba9845b771f5e",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88"
       },
       "../src/main.ts": {
@@ -8138,8 +8138,9 @@
       "../src/modules/students/dto/create-student.dto.ts",
       "../src/modules/students/dto/update-record-book.dto.ts",
       "../src/modules/students/interfaces/student.interface.ts",
-      "../src/modules/students/services/students.service.ts",
+      "../src/modules/students/controllers/students.controller.ts",
       "../src/modules/students/schemas/student.schema.ts",
+      "../src/modules/students/students.module.ts",
       "../src/app.module.ts",
       "../src/main.ts",
       "../node_modules/@types/anymatch/index.d.ts",
@@ -8180,8 +8181,7 @@
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/modules/students/controllers/students.controller.ts",
-      "../src/modules/students/students.module.ts"
+      "../src/modules/students/services/students.service.ts"
     ]
   },
   "version": "3.7.4"
