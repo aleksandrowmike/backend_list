@@ -6,12 +6,10 @@ export declare class StudentsService {
     private readonly studentModel;
     constructor(studentModel: Model<IStudent>);
     create(createStudentDto: CreateStudentDto): Promise<IStudent>;
-    many(body: any): Promise<void>;
     findAll(): Promise<IStudent[]>;
     findById(id: string): Promise<IStudent>;
     count(): Promise<IStudent>;
     deleteOne(id: string): Promise<string>;
-    deleteAll(): Promise<void>;
     updateById(id: string, updateStudentDto: CreateStudentDto): Promise<void>;
     updateRecordBookById(id: string, updateRecordBookDto: UpdateRecordBook): Promise<void>;
 }

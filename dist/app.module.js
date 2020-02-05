@@ -9,7 +9,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const mongoose_1 = require("@nestjs/mongoose");
 const app_controller_1 = require("./app.controller");
+const auth_module_1 = require("./modules/auth/auth.module");
 const students_module_1 = require("./modules/students/students.module");
+const users_module_1 = require("./modules/users/users.module");
 const uri = "mongodb+srv://new-mikhail_31:LJL9KSbUnIG6QHzd@cluster0-ziqns.azure.mongodb.net/test?retryWrites=true&w=majority";
 let AppModule = class AppModule {
 };
@@ -17,7 +19,9 @@ AppModule = __decorate([
     common_1.Module({
         imports: [
             mongoose_1.MongooseModule.forRoot(uri, { useFindAndModify: false, useNewUrlParser: true, useUnifiedTopology: true }),
-            students_module_1.StudentsModule
+            students_module_1.StudentsModule,
+            users_module_1.UsersModule,
+            auth_module_1.AuthModule
         ],
         controllers: [app_controller_1.AppController],
         providers: [],

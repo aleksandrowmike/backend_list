@@ -1,0 +1,8 @@
+import { CreateUserDto } from "../dto/create-user.dto";
+import { UsersService } from "../service/users.service";
+export declare class UsersController {
+    private usersService;
+    constructor(usersService: UsersService);
+    create(createUserDto: CreateUserDto): Promise<void>;
+    testAuthRoute(): Object;
+}

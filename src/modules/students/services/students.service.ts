@@ -13,10 +13,6 @@ export class StudentsService {
     const createdStudent = new this.studentModel(createStudentDto);
     return createdStudent.save();
   }
-  async many (body): Promise<void> {
-    const createdStudent = new this.studentModel(body);
-    return createdStudent.save();
-  }
   async findAll(): Promise<IStudent[]> {
     return this.studentModel.find().exec();
   }
@@ -28,10 +24,6 @@ export class StudentsService {
   }
   async deleteOne(id: string): Promise<string> {
     return this.studentModel.deleteOne({_id: id});
-  }
-
-  async deleteAll(): Promise<void> {
-    return this.studentModel.remove({});
   }
 
   async updateById(id: string, updateStudentDto: CreateStudentDto): Promise<void> {

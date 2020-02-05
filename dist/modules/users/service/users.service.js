@@ -16,37 +16,22 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const mongoose_1 = require("@nestjs/mongoose");
 const mongoose_2 = require("mongoose");
-let StudentsService = class StudentsService {
-    constructor(studentModel) {
-        this.studentModel = studentModel;
+let UsersService = class UsersService {
+    constructor(userModel) {
+        this.userModel = userModel;
     }
-    async create(createStudentDto) {
-        const createdStudent = new this.studentModel(createStudentDto);
-        return createdStudent.save();
+    async create(createUserDto) {
+        const createdUser = new this.userModel(createUserDto);
+        return createdUser.save();
     }
-    async findAll() {
-        return this.studentModel.find().exec();
-    }
-    async findById(id) {
-        return this.studentModel.find({ _id: id }).exec();
-    }
-    async count() {
-        return this.studentModel.count();
-    }
-    async deleteOne(id) {
-        return this.studentModel.deleteOne({ _id: id });
-    }
-    async updateById(id, updateStudentDto) {
-        return this.studentModel.findByIdAndUpdate(id, updateStudentDto);
-    }
-    async updateRecordBookById(id, updateRecordBookDto) {
-        return this.studentModel.findOneAndUpdate({ "_id": id }, { $set: { "recordBook": updateRecordBookDto } });
+    async findOneByEmail(email) {
+        return this.userModel.findOne({ email: email });
     }
 };
-StudentsService = __decorate([
+UsersService = __decorate([
     common_1.Injectable(),
-    __param(0, mongoose_1.InjectModel("Student")),
+    __param(0, mongoose_1.InjectModel("User")),
     __metadata("design:paramtypes", [typeof (_a = typeof mongoose_2.Model !== "undefined" && mongoose_2.Model) === "function" ? _a : Object])
-], StudentsService);
-exports.StudentsService = StudentsService;
-//# sourceMappingURL=students.service.js.map
+], UsersService);
+exports.UsersService = UsersService;
+//# sourceMappingURL=users.service.js.map
