@@ -24,8 +24,14 @@ let UsersService = class UsersService {
         const createdUser = new this.userModel(createUserDto);
         return createdUser.save();
     }
+    async getAll() {
+        return this.userModel.find().exec();
+    }
     async findOneByEmail(email) {
         return this.userModel.findOne({ email: email });
+    }
+    async deleteOne(id) {
+        return this.userModel.deleteOne({ _id: id });
     }
 };
 UsersService = __decorate([

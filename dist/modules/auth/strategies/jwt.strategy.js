@@ -17,7 +17,7 @@ let JwtStrategy = class JwtStrategy extends passport_1.PassportStrategy(passport
     constructor(authService) {
         super({
             jwtFromRequest: passport_jwt_1.ExtractJwt.fromAuthHeaderAsBearerToken(),
-            secretOrKey: "secretKey"
+            secretOrKey: "abc4satwrofc"
         });
         this.authService = authService;
     }

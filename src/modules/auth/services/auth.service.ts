@@ -12,18 +12,17 @@ export class AuthService {
   // tslint:disable-next-line:no-any
   async validateUserByPassword(loginAttempt: LoginUserDto): Promise<any> {
     const userToAttempt = await this.usersService.findOneByEmail(loginAttempt.email);
-    return new Promise((resolve) => {
+    return new Promise((resolve, reject) => {
       userToAttempt.checkPassword(loginAttempt.password, (err, isMatch) => {
         if (err) { throw new UnauthorizedException(); }
         if (isMatch) {
           resolve(this.createJwtPayload(userToAttempt));
         } else {
-          throw new UnauthorizedException();
-        }
+          reject(new UnauthorizedException());
+      }
       });
 
     });
-
   }
   // tslint:disable-next-line:typedef
   async validateUserByJwt(payload: JwtPayload) {

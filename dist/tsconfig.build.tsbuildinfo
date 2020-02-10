@@ -1402,27 +1402,27 @@
         "signature": "a2b176f66f0b708241265fb3b417597c9c9d21912bbb7f5cc00d99af551c2078"
       },
       "../src/modules/users/dto/create-user.dto.ts": {
-        "version": "86e8a4b0cbd54af2db090817c893c6ecb9e36700f59b4d95e027bd05f63d33d5",
-        "signature": "416f52e5beb957538cbddd8f12b08bfce8f4dbb3e47df46cedf4f04c4204b864"
+        "version": "c1b3845963fe168da3b92b4e5ff6f73bef4d00ab6c002e3f97ce69b2b1776c57",
+        "signature": "c1053d6cbe4d1789c00df8062b5cb97475b0bdec9d0348987db4ebf962d05e3d"
       },
       "../src/modules/users/interfaces/user.interface.ts": {
-        "version": "421d757d196ee1140949186363feace060d75a622d280735308a2fac2d13d4c7",
-        "signature": "669f0253d3ecc2c2e6574c34e988ed4dbcb0002d23a073cab572b30f6c157ca4"
+        "version": "b2bd98eede1e726763edecf2cd02c5f84f946f593e560b563f9cc274969a8473",
+        "signature": "2a953019426ff7184305c95bb7fae623e69c70906833a518426df3c051c36b7d"
       },
       "../src/modules/users/service/users.service.ts": {
-        "version": "3fd03525baac9a492432edd91a430a0b543697695a43af280f03c6f60f707355",
-        "signature": "a4323e5097b2db3bed339e6d2d8aef5a43ec05c17b0f38367e6d116db95af0ca"
+        "version": "d0e879c4a45ffadb43913a4e44109bd6b0020fe7a787b003adaaa7b620e9e7ca",
+        "signature": "710c954e953fc65de2ee16ccdf9e99d382fff92a9c18b92039bbe2df82b90645"
       },
       "../src/modules/users/controllers/users.controller.ts": {
-        "version": "361ff27e66dd88b1164ab20d612cbe8e332f67bfd8370124f13b58ab1fb33cee",
-        "signature": "6cff849eb0713a72312a7829b92f1eb0ad210b52aa5e4c4743a930b7ebd73312"
+        "version": "5f43182f5352670390ceec00243fe66e50ea3bf89b316dc31dc642ba5c15312b",
+        "signature": "51d5da581ecc9c5cedfa503a2dfbc4497faf436880eae4c2c1a5c97504aa1370"
       },
       "../node_modules/@types/bcryptjs/index.d.ts": {
         "version": "9dfe431ab1485e17a6055e186c49da9d23af74b965f2e99f8acc6c958778608f",
         "signature": "9dfe431ab1485e17a6055e186c49da9d23af74b965f2e99f8acc6c958778608f"
       },
       "../src/modules/users/schemas/user.schema.ts": {
-        "version": "7cf2fff6302e7f3afc09f013f79b23593eabb33d3904993777f8b0b7b7be2697",
+        "version": "c65fffba0a883e5691ea852c792f521f6dc1f5f05c039f810eb374e272d19330",
         "signature": "9368bf8d6c6ae153c57a9244bb5531f30a99c7961d2e19cbf1522795a0118c97"
       },
       "../src/modules/users/users.module.ts": {
@@ -1438,19 +1438,19 @@
         "signature": "889a8b5d0ce8e725535d0fa99fa3b6251dbc6b779f980bf99c13fbf5a0ad8c68"
       },
       "../src/modules/auth/services/auth.service.ts": {
-        "version": "3cc9d80ab81ef6c87d1c371ce676837aabe9cb08dd2d34e30a11c313535d1a47",
+        "version": "5a7ceb501df7de7f7c91de6408a51a338a21d0c655c4bfd80acd95f2a5dd8195",
         "signature": "f65b55a0701505308432c0e5a1fb59421e05a52ec82188ab2bb485ddd11ca524"
       },
       "../src/modules/auth/controllers/auth.controller.ts": {
-        "version": "95d5aa22bfab8b72e6a3588edf1397a617f2cd6ffd93db0950c028e02b77eb0c",
-        "signature": "b4ec10ca992df8dfc63f7ee9e2940deeb2985ea80ac641abecc11bcd7d65da4a"
+        "version": "5bec9b13a1e8f70cb4d55f78c1b8529eaa5c9f5776b04bda699b088ea6ba05d8",
+        "signature": "7f6d7b73ea8e3bf4048dbf88c5013c704d93aa5b32cb028db01554d7dd6d4310"
       },
       "../src/modules/auth/strategies/jwt.strategy.ts": {
-        "version": "cb1194101a211bf8a42715a3607eead4bbfe98e5412b35b8b7404ec3d3fc902f",
+        "version": "09263eeae2d11998e7c538a03108072db7559aff469151d49c56888fa6a2ef05",
         "signature": "3542c61fe71e472676ee9289077fdede98c046cbc5eabbd25b3a9362ba5faddb"
       },
       "../src/modules/auth/auth.module.ts": {
-        "version": "fd7d02eee26f54c70a7fb6ca70d37422f6fa34f77912a086b7fe6fbadb6ea5ff",
+        "version": "b2ea85e8d0f052f2f98e4a00cd595b754d5468f56590c7e6e7b44e8e12b7bf39",
         "signature": "2e5d258cf85349b02b015c3f1b8873c152d182c3819a7ccc3aff16fc3037a5fc"
       },
       "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts": {
@@ -4547,6 +4547,7 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/passport/index.d.ts",
         "../src/modules/users/dto/create-user.dto.ts",
+        "../src/modules/users/interfaces/user.interface.ts",
         "../src/modules/users/service/users.service.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -7921,7 +7922,8 @@
       ],
       "../src/modules/users/controllers/users.controller.ts": [
         "../src/modules/users/service/users.service.ts",
-        "../src/modules/users/dto/create-user.dto.ts"
+        "../src/modules/users/dto/create-user.dto.ts",
+        "../src/modules/users/interfaces/user.interface.ts"
       ],
       "../node_modules/@types/bcryptjs/index.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
@@ -8715,12 +8717,12 @@
       "../src/modules/users/dto/create-user.dto.ts",
       "../src/modules/users/interfaces/user.interface.ts",
       "../src/modules/users/service/users.service.ts",
-      "../src/modules/users/controllers/users.controller.ts",
       "../node_modules/@types/bcryptjs/index.d.ts",
       "../src/modules/users/schemas/user.schema.ts",
       "../src/modules/users/users.module.ts",
       "../src/modules/users/dto/login-user.dto.ts",
       "../src/modules/auth/interfaces/jwt-payload.interface.ts",
+      "../src/modules/auth/services/auth.service.ts",
       "../src/modules/auth/controllers/auth.controller.ts",
       "../src/modules/auth/strategies/jwt.strategy.ts",
       "../src/modules/auth/auth.module.ts",
@@ -8787,7 +8789,7 @@
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/modules/auth/services/auth.service.ts"
+      "../src/modules/users/controllers/users.controller.ts"
     ]
   },
   "version": "3.7.5"

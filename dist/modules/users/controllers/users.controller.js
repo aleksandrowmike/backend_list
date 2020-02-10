@@ -23,6 +23,12 @@ let UsersController = class UsersController {
     async create(createUserDto) {
         await this.usersService.create(createUserDto);
     }
+    async getByEmail(email) {
+        return this.usersService.findOneByEmail(email);
+    }
+    async delete(id) {
+        await this.usersService.deleteOne(id);
+    }
     testAuthRoute() {
         return {
             message: "You did it!"
@@ -36,6 +42,22 @@ __decorate([
     __metadata("design:paramtypes", [create_user_dto_1.CreateUserDto]),
     __metadata("design:returntype", Promise)
 ], UsersController.prototype, "create", null);
+__decorate([
+    common_1.Get(":email"),
+    common_1.UseGuards(passport_1.AuthGuard()),
+    __param(0, common_1.Param("email")),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String]),
+    __metadata("design:returntype", Promise)
+], UsersController.prototype, "getByEmail", null);
+__decorate([
+    common_1.Delete(":id"),
+    common_1.UseGuards(passport_1.AuthGuard()),
+    __param(0, common_1.Param("id")),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String]),
+    __metadata("design:returntype", Promise)
+], UsersController.prototype, "delete", null);
 __decorate([
     common_1.Get("test"),
     common_1.UseGuards(passport_1.AuthGuard()),

@@ -19,15 +19,19 @@ let AuthController = class AuthController {
     constructor(authService) {
         this.authService = authService;
     }
-    async login(loginUserDto) {
-        return await this.authService.validateUserByPassword(loginUserDto);
+    async login(loginUserDto, res) {
+        return this.authService.validateUserByPassword(loginUserDto)
+            .then(result => res.status(200).json(result))
+            .catch(x => {
+            return res.status(x.status).json(x.message);
+        });
     }
 };
 __decorate([
     common_1.Post(),
-    __param(0, common_1.Body()),
+    __param(0, common_1.Body()), __param(1, common_1.Res()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [login_user_dto_1.LoginUserDto]),
+    __metadata("design:paramtypes", [login_user_dto_1.LoginUserDto, Object]),
     __metadata("design:returntype", Promise)
 ], AuthController.prototype, "login", null);
 AuthController = __decorate([

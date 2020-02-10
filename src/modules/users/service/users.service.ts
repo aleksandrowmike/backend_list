@@ -11,7 +11,13 @@ export class UsersService {
     const createdUser = new this.userModel(createUserDto);
     return createdUser.save();
   }
+  async getAll(): Promise<User[]> {
+    return this.userModel.find().exec();
+  }
   async findOneByEmail(email: string): Model<User> {
     return this.userModel.findOne({email: email});
+  }
+  async deleteOne(id: string): Promise<void> {
+    return this.userModel.deleteOne({_id: id});
   }
 }

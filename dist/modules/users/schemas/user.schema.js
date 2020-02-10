@@ -11,6 +11,14 @@ exports.UserSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true
+    },
+    name: {
+        type: String,
+        required: true
+    },
+    avatar: {
+        type: String,
+        default: "/avatars/default.png"
     }
 });
 exports.UserSchema.pre("save", function (next) {

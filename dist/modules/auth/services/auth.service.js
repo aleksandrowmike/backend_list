@@ -19,7 +19,7 @@ let AuthService = class AuthService {
     }
     async validateUserByPassword(loginAttempt) {
         const userToAttempt = await this.usersService.findOneByEmail(loginAttempt.email);
-        return new Promise((resolve) => {
+        return new Promise((resolve, reject) => {
             userToAttempt.checkPassword(loginAttempt.password, (err, isMatch) => {
                 if (err) {
                     throw new common_1.UnauthorizedException();
@@ -28,7 +28,7 @@ let AuthService = class AuthService {
                     resolve(this.createJwtPayload(userToAttempt));
                 }
                 else {
-                    throw new common_1.UnauthorizedException();
+                    reject(new common_1.UnauthorizedException());
                 }
             });
         });
